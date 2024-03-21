@@ -1,0 +1,33 @@
+{
+  "name": "hicdolore",
+  "version": "1.0.0",
+  "description": "TypeScript Result",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnneLarson/hicdolore.git"
+  },
+  "files": [
+    "build"
+  ],
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "keywords": [
+    "typescript",
+    "veniam",
+    "nobis"
+  ],
+  "scripts": {
+    "clean": "rimraf build && rimraf tsconfig.tsbuildinfo",
+    "build": "npm run clean && tsc",
+    "test": "jest"
+  },
+  "author": "BrandynWelch",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "rimraf": "^4.4.0",
+    "ts-jest": "^29.0.5",
+    "typescript": "^5.0.2"
+  }
+}
